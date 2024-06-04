@@ -1,8 +1,9 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.appgym;
+
+import com.mycompany.appgym.view.ClienteView;
 
 /**
  *
@@ -11,6 +12,10 @@ package com.mycompany.appgym;
 public class AppGym {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        ClienteView clienteView = new ClienteView();
+        clienteView.setVisible(true);
+        clienteView.setLocationRelativeTo(null);
+
     }
 }
